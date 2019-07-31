@@ -13,3 +13,97 @@ body {
   font-family: 'Helvetica', sans-serif;
   font-weight: 400;
   line-height: 1.5; }
+
+.header {
+  background-image: linear-gradient(to left, #0d43fbbd, #0d43fbbd), url("../images/background-image.jpg");
+  background-size: cover;
+  height: 100vh; }
+  .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; }
+  .header__logo img {
+    width: 20rem; }
+  .header__list {
+    display: flex;
+    list-style: none; }
+    .header__list-link {
+      text-decoration: none;
+      color: white;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      margin-right: 4rem; }
+  .header__hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem; }
+    .header__hero-images {
+      flex: 1;
+      display: flex;
+      align-items: center; }
+      .header__hero-images-1 {
+        width: 26rem; }
+      .header__hero-images-2 {
+        width: 28rem; }
+    .header__hero-description {
+      flex: 1; }
+      .header__hero-description .hero-title {
+        font-size: 5rem;
+        line-height: 1.2;
+        font-weight: normal;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 2rem; }
+      .header__hero-description .hero-paragraph {
+        font-size: 1.5rem;
+        color: white; }
+  .header__download {
+    margin-top: 5rem; }
+    .header__download-google, .header__download-apple {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      border: 2px solid white;
+      padding: 1rem 3rem; }
+    .header__download-google {
+      margin-right: 2rem; }
+
+.description {
+  padding: 6rem; }
+  .description__list {
+    display: flex;
+    list-style: none; }
+  .description__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    height: 26rem;
+    justify-content: space-between; }
+    .description__item:not(:last-child) {
+      margin-right: 2rem; }
+    .description__item-icon {
+      height: 8rem;
+      width: 8rem;
+      background-color: #0d43fb;
+      border-radius: 50%; }
+    .description__item-title {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: normal; }
+    .description__item-text {
+      font-size: 1.2rem;
+      text-align: center; }
+
+.footer {
+  background-color: #0d43fb;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer__text {
+    font-size: 1.4rem;
+    color: white; }
