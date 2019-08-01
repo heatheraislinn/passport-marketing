@@ -6,6 +6,7 @@
         <title>Around the World | Digital Passport Experience</title>
 
         <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="stylesheet" href="css/all.css" type="text/css">
     </head>
 
     <body>
@@ -15,9 +16,9 @@
                     <img src="/images/epcot-logo.png" alt="Around the World logo">
                 </div>
                 <ul class="header__list">
-                    <li class="header__list-item"><a href="#" class="header__list-link">Download</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Description</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Contact</a></li>
+                    <li class="header__list-item"><a href="/" class="header__list-link">Download</a></li>
+                    <li class="header__list-item"><a href="#description" class="header__list-link">Description</a></li>
+                    <li class="header__list-item"><a href="#contact" class="header__list-link">Contact</a></li>
                 </ul>
             </nav>
 
@@ -32,36 +33,46 @@
                     Bonbon jelly beans topping. Chocolate cake lemon drops bonbon sweet roll oat cake. Pastry liquorice cotton candy lemon
                     drops.</p>
                     <div class="header__download">
-                        <a href="#" class="header__download-google">Google Play</a>
-                        <a href="#" class="header__download-apple">App Store</a>
+                        <a href="#" class="header__download-google">Download Coming Soon!</a>
                     </div>
                 </div>
             </hero>
         </header>
 
-        <section class="description">
+        <section id="description" class="description">
             <ul class="description__list">
                 <li class="description__item">
-                    <div class="description__item-icon"></div>
+                    <i class="description__item-icon fas fa-map-marked-alt"></i>
                     <h2 class="description__item-title">Visit Countries</h2>
                     <p class="description__item-text">Cupcake ipsum dolor sit amet toffee tiramisu fruitcake wafer. Pie liquorice powder sugar plum. Cake wafer topping.
                     Bonbon jelly beans topping.</p>
                 </li>
                 <li class="description__item">
-                    <div class="description__item-icon"></div>
-                    <h2 class="description__item-title">Take Photos</h2>
+                    <i class="description__item-icon fas fa-glass-cheers"></i>
+                    <h2 class="description__item-title">Try New Drinks</h2>
                     <p class="description__item-text">Cupcake ipsum dolor sit amet toffee tiramisu fruitcake wafer. Pie liquorice powder
                         sugar plum. Cake wafer topping.
                         Bonbon jelly beans topping.</p>
                 </li>
                 <li class="description__item">
-                    <div class="description__item-icon"></div>
+                    <i class="description__item-icon fas fa-stamp"></i>
                     <h2 class="description__item-title">Collect Stamps</h2>
                     <p class="description__item-text">Cupcake ipsum dolor sit amet toffee tiramisu fruitcake wafer. Pie liquorice powder
                         sugar plum. Cake wafer topping.
                         Bonbon jelly beans topping.</p>
                 </li>
             </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Have questions or want to test the app?</h2>
+            <h3 class="contact__subtitle">Get in touch with us!</h3>
+            <form action="">
+                <input type="text" class="contact__name" placeholder="Your Name">
+                <input type="email" class="contact__email" placeholder="Email Address">
+                <textarea class="contact__message" placeholder="Message" rows="6"></textarea>
+                <button type="submit" class="contact__submit">Send Message</button>
+            </form>
         </section>
 
         <footer class="footer">

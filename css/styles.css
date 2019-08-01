@@ -38,7 +38,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 6rem; }
+    padding: 6rem;
+    margin-top: 8rem; }
     .header__hero-images {
       flex: 1;
       display: flex;
@@ -86,10 +87,8 @@ body {
     .description__item:not(:last-child) {
       margin-right: 2rem; }
     .description__item-icon {
-      height: 8rem;
-      width: 8rem;
-      background-color: #0d43fb;
-      border-radius: 50%; }
+      color: #0d43fb;
+      font-size: 5rem; }
     .description__item-title {
       font-size: 2rem;
       text-transform: uppercase;
@@ -97,6 +96,46 @@ body {
     .description__item-text {
       font-size: 1.2rem;
       text-align: center; }
+
+.contact {
+  padding: 6rem;
+  background-image: linear-gradient(to bottom right, #333333db 50%, #333 50%);
+  text-align: center; }
+  .contact__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: normal; }
+  .contact__subtitle {
+    color: #fecb36;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 2rem; }
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contact__name, .contact__email, .contact__message {
+    display: block;
+    width: 40rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border: none;
+    color: #333; }
+  .contact__name, .contact__email {
+    height: 4rem; }
+  .contact__submit {
+    width: 20rem;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #fecb36;
+    color: #333; }
 
 .footer {
   background-color: #0d43fb;
