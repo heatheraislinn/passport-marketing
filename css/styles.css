@@ -146,3 +146,78 @@ body {
   .footer__text {
     font-size: 1.4rem;
     color: white; }
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    height: 70vh; }
+    .header__hero {
+      margin-top: 12rem; }
+      .header__hero-images-1 {
+        width: 20rem; }
+      .header__hero-images-2 {
+        width: 22rem; } }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 80vh; }
+    .header__hero {
+      padding: 4rem; }
+      .header__hero-images {
+        margin-right: 2rem; }
+        .header__hero-images-1 {
+          width: 16rem; }
+        .header__hero-images-2 {
+          width: 18rem; }
+      .header__hero .hero-title {
+        font-size: 3rem; }
+  .description {
+    padding: 4rem; }
+    .description__item {
+      padding: 2rem; }
+      .description__item-title {
+        text-align: center; } }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: unset; }
+    .header__navigation {
+      display: block;
+      padding: 1rem;
+      text-align: center; }
+    .header__logo {
+      margin-bottom: 1rem; }
+    .header__list {
+      justify-content: space-around; }
+      .header__list-link {
+        margin-right: 0; }
+    .header__hero {
+      display: block;
+      margin-top: 0; }
+      .header__hero-images {
+        margin-right: 0;
+        justify-content: center; }
+        .header__hero-images-1 {
+          width: 10rem; }
+        .header__hero-images-2 {
+          width: 12rem; }
+      .header__hero-description {
+        text-align: center; }
+        .header__hero-description .hero-title {
+          font-size: 3rem;
+          margin-top: 2rem; }
+    .header__download {
+      margin-top: 4rem; }
+      .header__download-google {
+        margin-right: 0; }
+  .description {
+    padding: 2rem; }
+    .description__list {
+      display: block; }
+    .description__item {
+      padding: 4rem; }
+      .description__item:not(:last-child) {
+        margin-right: 0rem; }
+  .contact {
+    padding: 4rem; }
+    .contact__name, .contact__email, .contact__message {
+      width: 30rem; } }

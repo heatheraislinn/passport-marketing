@@ -217,3 +217,122 @@ body {
         color: white;
     }
 }
+
+// MEDIA QUERIES
+// IPAD PRO
+@media only screen and (max-width: 1024px) {
+    .header {
+        height: 70vh;
+        &__hero {
+            margin-top: 12rem;
+            &-images {
+                &-1 {
+                    width: 20rem;
+                }
+                &-2 {
+                    width: 22rem;
+                }
+            }
+        }
+    }
+}
+
+// IPAD
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 80vh;
+        &__hero {
+            padding: 4rem;
+            &-images {
+                margin-right: 2rem;
+                &-1 {
+                    width: 16rem;
+                }
+                &-2 {
+                    width: 18rem;
+                }
+            }
+            .hero-title {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .description {
+        padding: 4rem;
+        &__item {
+            padding: 2rem;
+            &-title {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// PHONE
+@media only screen and (max-width: 600px) {
+    .header {
+        height: unset;
+        &__navigation {
+            display: block;
+            padding: 1rem;
+            text-align: center;
+        }
+        &__logo {
+            margin-bottom: 1rem;
+        }
+        &__list {
+            justify-content: space-around;
+            &-link {
+                margin-right: 0;
+            }
+        }
+        &__hero {
+            display: block;
+            margin-top: 0;
+            &-images {
+                margin-right: 0;
+                justify-content: center;
+                &-1 {
+                    width: 10rem;
+                }
+                &-2 {
+                    width: 12rem;
+                }
+            }
+            &-description {
+                text-align: center;
+                .hero-title {
+                    font-size: 3rem;
+                    margin-top: 2rem;
+                }
+            }
+        }   
+        &__download {
+            margin-top: 4rem;
+            &-google {
+                margin-right: 0;
+            }
+        }
+    }
+    .description {
+        padding: 2rem;
+        &__list {
+            display: block;
+        }
+        &__item {
+            padding: 4rem;
+            &:not(:last-child) {
+                margin-right: 0rem;
+            }
+        }
+    }
+    .contact {
+        padding: 4rem;
+        &__name,
+        &__email,
+        &__message {
+            width: 30rem;
+        }
+    }
+}
