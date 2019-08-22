@@ -46,6 +46,10 @@ body {
             font-size: 1.4rem;
             text-transform: uppercase;
             margin-right: 4rem;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
@@ -216,12 +220,7 @@ body {
 
     &__left {
         ul {
-            display: flex;
             list-style: none;
-
-            & > li:not(:last-child) {
-                margin-right: 2rem;
-            }
         }
 
         &-link {
@@ -263,6 +262,7 @@ body {
     &__title {
         font-size: 2.4rem;
         text-align: center;
+        margin-bottom: 2rem;
     }
 
     p {
@@ -296,6 +296,14 @@ body {
                     width: 22rem;
                 }
             }
+        }
+    }
+    .header.header__extra {
+        height: unset;
+    }
+    .content {
+        &__terms {
+            width: 100%;
         }
     }
 }
@@ -398,4 +406,20 @@ body {
             width: 30rem;
         }
     }
+    .footer {
+        display: block;
+        padding: 3rem;
+        text-align: center;
+    }
+    .content {
+        display: block;
+        padding: 0;
+        &__terms {
+            width: 100%;
+            padding: 2rem;
+        }
+    }
 }
+
+
+
