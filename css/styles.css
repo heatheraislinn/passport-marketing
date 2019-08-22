@@ -17,7 +17,8 @@ body {
 .header {
   background-image: linear-gradient(to left, #0d43fbbd, #0d43fbbd), url("../images/background-image.jpg");
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  min-height: 90rem; }
   .header__navigation {
     display: flex;
     justify-content: space-between;
@@ -187,7 +188,8 @@ body {
 
 @media only screen and (max-width: 1024px) {
   .header {
-    height: 70vh; }
+    height: 70vh;
+    min-height: unset; }
     .header__hero {
       margin-top: 12rem; }
       .header__hero-images-1 {
@@ -201,7 +203,8 @@ body {
 
 @media only screen and (max-width: 768px) {
   .header {
-    height: 80vh; }
+    height: 80vh;
+    min-height: unset; }
     .header__hero {
       padding: 4rem; }
       .header__hero-images {
@@ -221,7 +224,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   .header {
-    height: unset; }
+    height: unset;
+    min-height: unset; }
     .header__navigation {
       display: block;
       padding: 1rem;
